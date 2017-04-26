@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/chosen-js/chosen.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/6a90d2870c.js"></script>
+  <script src="node_modules/chosen-js/chosen.jquery.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Survey Questions</h2>
+    <hr>
+    <h3>About You </h3>
+
+    <h4>Name (Required)</h4>
+    <input type="text" name id="name" class="form-control" required/>
+
+    <h4>Link to Photo Image</h4>
+    <input type="text" name id="photo" class="form-control" required/>
+    <hr>
+    
+    <h3>Question1</h3>
+    <h4> Your mind is always buzzing with unexplored ideas and plans</h4>
+    <select data-placeholder class="chosen-select" id="ql" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+
+    <h3>Question 2</h3>
+    <h4> Generally Speaking, you rely more on your experience than your imagination.</h4>
+    <select data-placeholder class="chosen-select" id="q2" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h3>Question 3</h3>
+    <h4> You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <select data-placeholder class="chosen-select" id="q3" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+ 
+
+
+    <h3>Question 4</h3>
+    <h4> You rarely do something just out of sheer curiosity.</h4>
+    <select data-placeholder class="chosen-select" id="q4" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+
+    <h3>Question 5</h3>
+    <h4> People can rarely upset you.</h4>
+    <select data-placeholder class="chosen-select" id="q5" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+ 
+
+    <h3>Question 6</h3>
+    <h4>It is often difficult for you to relate to other people's feelings.</h4>
+    <select data-placeholder class="chosen-select" id="q6" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+ 
+
+    <h3>Question 7</h3>
+    <h4>In a discussion, truth should be more important than people's sensitivities.</h4>
+    <select data-placeholder class="chosen-select" id="q7" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h3>Question 8</h3>
+    <h4>You rarely get carried away by fantasies and ideas.</h4>
+    <select data-placeholder class="chosen-select" id="q8" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+   
+
+
+    <h3>Question 9</h3>
+    <h4>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h4>
+    <select data-placeholder class="chosen-select" id="q9" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    
+
+    <h3>Question 10</h3>
+    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <select data-placeholder class="chosen-select" id="ql0" style="display: none;">
+      <option value></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+    
+  
+    <br>
+    <br>
+
+    <!--Submit Button-->
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+      <i class="fa fa-check-circle" aria-hidden="true">
+        
+      </i> 
+      "Submit"
+    </button>
+    <hr>
+  </div>
+
+<script type="text/javascript">
+
+
+    $('.chosen-select').chosen({ width: "160px" });
+
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/tables)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+
+    $(".submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Here we grab the form elements
+      var newFriend = 
+         {
+           name: $("#name").val().trim(),
+           photo:$("#photo").val().trim(),
+           scores:[$("#q1"),$("#q2"),$("#q3"),$("#q4"),$("#q5"),$("#q6"),$("#q7"),$("#q8"),$("#q9"),$("#q10")]  
+         };
+    
+
+      console.log(newFriend);
+
+      // This line is the magic. It"s very similar to the standard ajax function we used.
+      // Essentially we give it a URL, we give it the object we want to send, then we have a "callback".
+      // The callback is the response of the server. In our case, we set up code in api-routes that "returns" true or false
+      // depending on if a tables is available or not.
+
+      $.post("/api/friends", newFriend,
+        function(data) {
+
+
+
+          // Clear the form when submitting
+          $("#name").val("");
+          $("#photo").val("");
+       
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>
